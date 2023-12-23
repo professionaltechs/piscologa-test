@@ -1,0 +1,138 @@
+.SectionOneMain {
+    background: url(../../public/images/sectionOneBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* height: 100vh; */
+    /* margin: 22px 0; */
+    margin-bottom: 22px ;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 100px 0;
+}
+
+.SectionOneInner {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    transition: .3s;
+}
+
+.SectionOneInnerText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    transition: .3s;
+}
+
+@media (max-width: 767px) {
+    .SectionOneInner {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SectionOneInnerText {
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .SectionOneInnerText {
+        width: 90%;
+    }
+}
+
+.SectionOneInnerText>h4 {
+    color: #000;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .3s;
+}
+
+.SectionOneInnerText>h1 {
+    background: linear-gradient(180deg, #7D7CF5 16.24%, #9B6CCB 43.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    transition: .3s;
+    margin-bottom: 6px;
+}
+
+.SectionOneInnerText>h6 {
+    color: #422486;
+   
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.SectionOneInnerText>p {
+    color: #000;
+   
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 33px;
+    transition: .3s;
+}
+
+.SectionOneInnerText button {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 200px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 72px;
+    background: linear-gradient(270deg, #CDABED 0%, #7D7CF5 100%);
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .SectionOneInnerText>h4 {
+        font-size: 24px;
+    }
+
+    .SectionOneInnerText>h1 {
+        font-size: 36px;
+    }
+
+    .SectionOneInnerText>h6 {
+        font-size: 20px;
+    }
+
+    .SectionOneInnerText>p {
+        font-size: 18px;
+    }
+
+    .SectionOneInnerText>button {
+        font-size: 18px;
+        width: 150px;
+    }
+}

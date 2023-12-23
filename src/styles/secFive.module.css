@@ -1,0 +1,171 @@
+/* 
+.content {
+    background: url(../../public/images/sectionFiveBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 33px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heading {
+    text-align: center;
+    
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #4A49BA 16.24%, #9B6CCB 119.8%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .3s;
+}
+
+@media (max-width:991px) {
+    .heading {
+        font-size: 36px;
+    }
+}
+
+.bodyMain {
+    display: flex;
+    align-items: center;
+    padding: 33px 0;
+    justify-content: center ;
+}
+
+.cardMain {
+    display: flex;
+    padding: 11px 18px !important;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(233, 222, 245, 0.60) 0%, rgba(255, 255, 255, 0.60) 100%);
+    border-radius: 20px;
+    align-items: center;
+    width: 100%;
+    border: 2px solid rgba(203, 167, 234, 0.30);
+    gap: 10px;
+}
+
+.cardImg {
+    width: 50%;
+}
+
+.cardText {
+    margin-left: 11px;
+    width: 50%;
+}
+
+.cardText>p {
+    font-size: 22px;
+    transition: .3s;
+}
+
+.cardText>h2 {
+    font-weight: 700;
+    font-size: 44px;
+    background: linear-gradient(180deg, #7D7CF5 16.24%, #9B6CCB 43.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 11px;
+    transition: .3s;
+} */
+
+/* @media (max-width: 767px) {
+    .cardMain {
+        display: flex;
+        flex-direction: column;
+        padding: 6px 6px;
+        gap: 0;
+    }
+
+    .cardImg {
+        width: 100%;
+    }
+
+    .cardText.cardText {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 11px;
+    }
+
+    .cardText>h2 {
+        font-size: 28px;
+    }
+
+    .cardText>p {
+        font-size: 18px;
+    }
+} */
+
+.carouselContainer {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .carouselContainer {
+    display: block;
+  }
+
+  .mobile_cardMain {
+    /* margin: 0 33px; */
+    background-color: #fff;
+    background: linear-gradient(
+      180deg,
+      rgba(233, 222, 245, 0.9) 0%,
+      rgba(255, 255, 255, 0.9) 100%
+    );
+    padding: 11px 11px;
+    padding-bottom: 22px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 33px;
+    transition: .3s;
+  }
+
+  .mobile_cardText {
+    padding: 11px 22px;
+    transition: .3s;
+  }
+
+  .mobile_cardText > p {
+    color: #422486;
+    font-weight: 500;
+    margin-top: 11px;
+    transition: .3s;
+  }
+
+  .mobile_cardText > h2 {
+    background: linear-gradient(90deg, #7d7cf5 16.24%, #9b6ccb 43.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 11px;
+    transition: .3s;
+  }
+}
+
+@media (max-width: 450px) {
+    .mobile_cardMain {
+        padding: 6px 6px;
+    }
+    .mobile_cardText {
+        padding: 0px 0px;
+      }
+
+      .mobile_cardText > p {
+        font-size: 13px;
+      }
+
+      .mobile_cardText > h2 {
+        font-size: 17px;
+      }
+
+      .mobile_cardText>span {
+        font-size: 13px;
+      }
+}

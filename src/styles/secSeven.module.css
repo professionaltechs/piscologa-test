@@ -1,0 +1,275 @@
+.content {
+    background: linear-gradient(#3639ff, #7b69f463), url(../../public/images/secSevenBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 66px 33px;
+    margin-top: 50px;
+}
+
+.heading {
+    color: #FFF;
+    /* margin-top: 73px; */
+    text-align: center;
+    font-size: 60px;
+    transition: .3s;
+    font-weight: 700;
+    margin-bottom: 33px;
+}
+
+.input {
+    padding: 14px 20px;
+    /* flex-shrink: 0; */
+    border-radius: 26px;
+    width: 100%;
+    background: #FFF;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    transition: 0.3s;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.input::placeholder {
+    color: #A0A0A0;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.message {
+    padding: 22px 20px;
+    border-radius: 39px;
+    background: #FFF;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    transition: 0.4s;
+    width: 100%;
+    text-align: center;
+    resize: none;
+}
+
+.message::placeholder {
+    color: #A0A0A0; 
+    font-size: 22px;
+    font-weight: 300;
+    height: 70%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.Set2InnerHead {
+    color: #FFF;
+
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.set1 {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.AllIcons {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    margin-top: 33px;
+}
+
+.btn {
+    gap: 10px;
+    flex-shrink: 0;
+    color: #4848FF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-flex;
+    padding: 11px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    background: #FFF;
+    border: none;
+    margin-top: 51px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.phoneIcon {
+    color: #4848FF;
+    font-size: 24px;
+}
+
+.lastText {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contentEnd {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.forwardArrow {
+    color: #ffffff;
+    font-size: 31px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .heading {
+        font-size: 36px;
+    }
+    .set1{
+        width: 40%;
+    }
+
+    /* .input {
+        width: 369px;
+        height: 58px;
+        font-size: 22px;
+        transition: 0.4s;
+    } */
+
+    /* .input::placeholder {
+        font-size: 22px;
+    } */
+
+    /* .message {
+        width: 369px;
+        height: 128px;
+        font-size: 22px;
+        transition: 0.4s;
+    } */
+
+    /* .message::placeholder {
+        font-size: 22px;
+    } */
+
+    /* .icon {
+        font-size: 40px;
+        transition: 0.4s;
+    } */
+
+    /* .btn {
+        font-size: 26px;
+        height: 58px;
+        gap: 10px;
+        margin-top: 35px;
+        transition: 0.4s;
+    } */
+
+    /* .lastText {
+        font-size: 32px;
+    } */
+
+    /* .phoneIcon {
+        font-size: 24px;
+    } */
+}
+
+@media (max-width: 768.98px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .set1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .set2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .content {
+        padding-bottom: 50px;
+    }
+
+    .message::placeholder,
+    .input::placeholder {
+        font-size: 16px;
+    }
+
+    .input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .message {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .lastText {
+        font-size: 28px;
+    }
+
+    .forwardArrow {
+        color: #ffffff;
+        font-size: 26px;
+    }
+
+    .Set2InnerHead {
+        font-size: 24px;
+        transition: 0.4s;
+        text-align: center;
+    }
+
+    .AllIcons {
+        gap: 30px;
+        margin-top: 24px;
+    }
+
+    .icon {
+        font-size: 40px;
+        transition: 0.4s;
+    }
+
+    .btn {
+        font-size: 24px;
+        margin-top: 35px;
+        transition: 0.4s;
+        padding: 8px 22px;
+    }
+
+    .phoneIcon {
+        font-size: 20px;
+    }
+}

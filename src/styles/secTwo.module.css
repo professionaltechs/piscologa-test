@@ -1,0 +1,149 @@
+.content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    padding: 33px 33px;
+    align-items: center;
+    transition: .3s;
+    margin-top: 33px;
+}
+
+.img {
+    width: 48%;
+    /* margin-right: 51px; */
+    display: flex;
+    justify-content: center;
+}
+
+.responsiveImg {
+    display: none;
+}
+
+.text {
+    width: 48%;
+}
+
+@media (max-width: 767px) {
+    .parent {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 0px;
+    }
+
+    .img {
+        margin-bottom: 44px;
+        width: 100%;
+        display: none;
+    }
+
+    .responsiveImg {
+        display: block !important;
+        width: 100%;
+        margin-bottom: 33px;
+    }
+
+    .text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    } 
+}
+
+.heading {
+    text-align: center;
+    text-align: center;
+  
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #4A49BA 16.24%, #9B6CCB 119.8%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 55px;
+    -webkit-text-fill-color: transparent;
+    transition: .3s;
+}
+
+.SectionTwoTextHead1 {
+    color: #000;
+ 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .3s;
+}
+
+.SectionTwoTextHead2 {
+    background: linear-gradient(180deg, #7D7CF5 16.24%, #9B6CCB 43.66%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+   
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.SectionTwoTextPara1 {
+    color: #000;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 30px;
+    transition: .3s;
+}
+
+.btn {
+    display: flex;
+    width: 200px;
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 72px;
+    background: linear-gradient(270deg, #CDABED 0%, #7D7CF5 100%);
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-top: 33px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .heading {
+        font-size: 36px !important;
+    }
+
+    .SectionTwoTextHead1 {
+        font-size: 24px;
+    }
+
+    .SectionTwoTextHead2 {
+        font-size: 36px !important;
+    }
+
+    .SectionTwoTextPara1 {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 18px;
+        width: 150px;
+    }
+}
